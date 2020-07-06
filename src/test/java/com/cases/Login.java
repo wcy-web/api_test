@@ -55,6 +55,8 @@ public class Login extends BaseCase {
         addWriteBackData(startSheet,caseInfo.getId(),Constants.TEST_RESULT,s);
         //报表断言
         Assert.assertEquals(s,"通过");
+        System.out.println("git");
+
     }
 
     @DataProvider
