@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="测试项目">
+    <test name="注册接口">
+        <classes>
+            <class name="com.cases.Register"></class>
+            <parameter name="startSheet" value="0"></parameter>
+        </classes>
+    </test>
+   <test name="登录接口">
+        <classes>
+            <class name="com.cases.Login"></class>
+            <parameter name="startSheet" value="1"></parameter>
+        </classes>
+    </test>
+    <test name="充值接口">
+        <classes>
+            <class name="com.cases.Recharge"></class>
+            <parameter name="startSheet" value="2"></parameter>
+        </classes>
+    </test>
+<test name="新增项目接口">
+        <classes>
+            <class name="com.cases.AddLoan"></class>
+            <parameter name="startSheet" value="3"></parameter>
+        </classes>
+    </test>
+    <test name="管理员登录接口">
+        <classes>
+            <class name="com.cases.Login"></class>
+            <parameter name="startSheet" value="4"></parameter>
+        </classes>
+    </test>
+    <test name="审核项目接口">
+        <classes>
+            <class name="com.cases.AuditLoan"></class>
+            <parameter name="startSheet" value="5"></parameter>
+        </classes>
+    </test>
+    <test name="投资接口">
+        <classes>
+            <class name="com.cases.Invest"></class>
+            <parameter name="startSheet" value="6"></parameter>
+        </classes>
+    </test>
+</suite>
